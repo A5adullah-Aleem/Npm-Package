@@ -1,3 +1,4 @@
+// userModule.js
 
 function fetchUserData(userId, callback) {
     console.log(`Fetching user data for user ID: ${userId}`);
@@ -8,18 +9,19 @@ function fetchUserData(userId, callback) {
             email: "john@example.com"
         };
         callback(null, userData);
-        }, 2000);
-    }
-    
-    function processUserData(error, userData) {
-        if (error) {
+    }, 2000);
+}
+
+function processUserData(error, userData) {
+    if (error) {
         console.error("Error fetching user data:", error);
-        } else {
+    } else {
         console.log("User data retrieved successfully:", userData);
-        }
     }
-    
-    const userIdToFetch = 123;
-    fetchUserData(userIdToFetch, processUserData);
-    
-    console.log("Request initiated. Waiting for response...");
+}
+
+// Export the functions
+module.exports = {
+    fetchUserData,
+    processUserData
+};
