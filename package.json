@@ -1,0 +1,23 @@
+{
+  "name": "distinctivejs",
+  "version": "1.0.0",
+  "description": "Fetching user data and id email",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/A5adullah-Aleem/Npm-Package.git"
+  },
+  "keywords": [
+    "DistinctiveJs",
+    "Distinctive"
+  ],
+  "author": "Asadullah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/A5adullah-Aleem/Npm-Package/issues"
+  },
+  "homepage": "https://github.com/A5adullah-Aleem/Npm-Package#readme"
+}
